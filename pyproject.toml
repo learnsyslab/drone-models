@@ -103,7 +103,7 @@ docstring-code-line-length = "dynamic"
 [tool.pixi]
 [tool.pixi.workspace]
 channels = ["conda-forge"]
-platforms = ["linux-64"]
+platforms = ["linux-64", "osx-arm64"]
 
 [tool.pixi.pypi-options]
 extra-index-urls = ["https://download.pytorch.org/whl/cpu"]  # We only want to have the CPU version

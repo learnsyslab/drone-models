@@ -110,7 +110,7 @@ from drone_models.so_rpy_rotor_drag import dynamics
 model = parametrize(dynamics, drone_model="my_drone")
 ```
 
-Support for new drone models can be added to the shared parameter files via a pull request on [GitHub](https://github.com/utiasDSL/drone-models).
+Support for new drone models can be added to the shared parameter files via a pull request on [GitHub](https://github.com/learnsyslab/drone-models).
 
 ## Which model to identify
 

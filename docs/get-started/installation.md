@@ -27,7 +27,7 @@ For development work, we use [pixi](https://pixi.sh) as the environment manager.
 Clone the repository and install all environments in one step:
 
 ```bash
-git clone https://github.com/utiasDSL/drone-models.git
+git clone https://github.com/learnsyslab/drone-models.git
 cd drone-models
 pixi install
 ```
