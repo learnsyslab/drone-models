@@ -24,7 +24,7 @@ What differs between models is the command interface, which parameters are neede
 
 The full rigid-body physics model. The command is four individual motor RPMs. The model computes forces and torques from the RPMs using polynomial thrust and torque curves, applies the mixing matrix to find body-frame moments, and integrates using Newton–Euler equations. Propeller inertia and gyroscopic effects are included. No fitting to flight data is required — all parameters are physical constants you can measure or look up.
 
-Working at the rotor-velocity level means you need a controller that converts higher-level commands — position setpoints, attitude + collective thrust — down to individual motor RPMs. [drone-controllers](https://utiasdsl.github.io/drone-controllers/) provides a matching set of controllers designed for exactly this interface.
+Working at the rotor-velocity level means you need a controller that converts higher-level commands — position setpoints, attitude + collective thrust — down to individual motor RPMs. [drone-controllers](https://learnsyslab.github.io/drone-controllers/) provides a matching set of controllers designed for exactly this interface.
 
 ```python
 import numpy as np

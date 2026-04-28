@@ -1,8 +1,8 @@
 site_name: Drone Models
 site_description: Models of quadrotor drones for estimation and control tasks
-site_url: https://utiasdsl.github.io/drone-models/
-repo_url: https://github.com/utiasDSL/drone-models
-repo_name: utiasDSL/drone-models
+site_url: https://learnsyslab.github.io/drone-models/
+repo_url: https://github.com/learnsyslab/drone-models
+repo_name: learnsyslab/drone-models
 
 theme:
   name: material
