@@ -83,20 +83,4 @@
     </body>
   </worldbody>
 
-  <!-- Actuators 
-  We do not limit the actuation range of the motors here, because we would need to synchronize the
-  control limits from our constants module with the ones in the MuJoCo model. Instead, we rely on
-  the controller simulation for proper clipping. 
-  -->
-  <actuator>
-    <motor gear="0 0 1 0 0 0" site="motor0" name="motor0_force" />
-    <motor gear="0 0 1 0 0 0" site="motor1" name="motor1_force" />
-    <motor gear="0 0 1 0 0 0" site="motor2" name="motor2_force" />
-    <motor gear="0 0 1 0 0 0" site="motor3" name="motor3_force" />
-    <motor gear="0 0 0 0 0 1" site="motor0" name="motor0_torque" />
-    <motor gear="0 0 0 0 0 1" site="motor1" name="motor1_torque" />
-    <motor gear="0 0 0 0 0 1" site="motor2" name="motor2_torque" />
-    <motor gear="0 0 0 0 0 1" site="motor3" name="motor3_torque" />
-  </actuator>
-
 </mujoco>
