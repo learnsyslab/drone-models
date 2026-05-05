@@ -22,7 +22,7 @@
     <mesh name="connector-pins" file="cf2x/cf2x_connector-pins.stl" scale="0.001 0.001 0.001"/>
     <mesh name="battery" file="cf2x/cf2x_battery.stl" scale="0.001 0.001 0.001"/>
     <mesh name="battery-holder" file="cf2x/cf2x_battery-holder.stl" scale="0.001 0.001 0.001"/>
-    <mesh name="led-diffusor" file="cf21B/cf_led-diffusor.stl" scale="1e-3 1e-3 1e-3"/>
+    <mesh name="led-diffuser" file="cf21B/cf_led-diffuser.stl" scale="1e-3 1e-3 1e-3"/>
   </asset>
 
   <default>
