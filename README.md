@@ -1,3 +1,6 @@
+> [!WARNING]
+> **This repository is no longer maintained.** All models have been integrated into [crazyflow](https://github.com/learnsyslab/crazyflow), its successor, and can be imported from there as before. Please use [crazyflow](https://github.com/learnsyslab/crazyflow) for new projects.
+
 $$
 \huge \displaystyle \dot{x} = f(x,u)
 $$
